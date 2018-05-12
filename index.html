@@ -96,6 +96,21 @@
 .page-number{
     cursor: pointer;
 }
+.wrapper{
+    position: relative; 
+}
+.logo{
+    position: absolute; 
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80px;
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.title{
+    margin-left: 100px;
+}
 /*.banner .fn-right .form-add{
     font-size: 20px;
     display: block;
@@ -112,8 +127,11 @@
 <header>
     <div class="banner">
         <div class="fn-clear wrapper">
-            <h1 class="fn-inline">
-                <a href="https://88250.b3log.org/" rel="start">
+            <div class="logo">
+                <img src="./static/logo.png">
+            </div>
+            <h1 class="fn-inline title">
+                <a rel="start">
                     空气币传销币黑名单
                 </a>
             </h1>
